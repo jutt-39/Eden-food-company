@@ -1,0 +1,547 @@
+  body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0; /* Gray background */
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+    background-color: #343a40 !important; /* Black background */
+    padding: 10px 0;
+}
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text for links */
+    font-weight: 500;
+    margin: 0 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: #ccc !important; /* Light gray on hover */
+}
+.navbar .dropdown-menu {
+    background-color: #343a40; /* Dark background for dropdown */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar .dropdown-item {
+    color: #fff; /* White text for dropdown items */
+    padding: 10px 20px; /* Add padding */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+}
+
+.navbar .dropdown-toggle::after {
+    margin-left: 5px; /* Add space between text and dropdown arrow */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue button */
+    border: none;
+}
+.btn-outline-light {
+    color: #fff; /* White text for Admin button */
+    border-color: #fff; /* White border */
+}
+.btn-outline-light:hover {
+    background-color: #fff; /* White background on hover */
+    color: #000; /* Black text on hover */
+}
+.carousel-section {
+    background-color: #f0f0f0; /* Gray background */
+    padding: 50px 0;
+}
+.carousel-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #000; /* Black text */
+}
+.carousel-text p {
+    font-size: 1.2rem;
+    color: #333; /* Dark gray text */
+    margin-bottom: 20px;
+}
+.carousel-image {
+    border-radius: 15px; /* Rounded images */
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+}
+.team-section {
+    background-color: #fff; /* White background */
+    padding: 50px 0;
+}
+.team-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000; /* Black text */
+    margin-bottom: 30px;
+}
+.team-section img {
+    border: 5px solid #f0f0f0; /* Light gray border */
+}
+.team-section h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.team-section p {
+    font-size: 1rem;
+    color: #666; /* Gray text */
+    margin-bottom: 5px;
+}
+.reviews-section {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 50px 0;
+}
+.reviews-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000; /* Black text */
+    margin-bottom: 30px;
+}
+.reviews-section img {
+    border: 3px solid #007bff; /* Blue border */
+}
+.reviews-section h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.reviews-section p {
+    font-size: 1rem;
+    color: #666; /* Gray text */
+    margin-bottom: 10px;
+}
+.reviews-section .stars {
+    font-size: 1.5rem;
+    color: #ffc107; /* Yellow stars */
+}
+.gallery-section {
+    background-color: #fff; /* White background */
+    padding: 50px 0;
+}
+.gallery-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000; /* Black text */
+    margin-bottom: 30px;
+}
+.gallery-section img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+.gallery-section img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hoimgs/ver */
+}
+.contact-section {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 50px 0;
+}
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000; /* Black text */
+    margin-bottom: 30px;
+}
+.contact-item {
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+.contact-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+.contact-item i {
+    color: #007bff; /* Blue icons */
+}
+.contact-item h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.contact-item p {
+    font-size: 1rem;
+    color: #666; /* Gray text */
+    margin-bottom: 0;
+}
+.about-section {
+    background-color: #343a40; /* Dark background */
+    padding: 50px 0;
+}
+.about-section h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+.about-section ul {
+    padding-left: 0;
+}
+.about-section ul li {
+    margin-bottom: 10px;
+}
+.about-section ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+.about-section ul li a:hover {
+    color: #007bff; /* Blue text on hover */
+}
+.about-section p {
+    font-size: 1rem;
+    color: #ccc; /* Light gray text */
+}
+.footer {
+    background-color: #000; /* Black background */
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #fff; /* White text */
+}
+.footer p {
+    margin: 0;
+}
+
+
+.jobs-list .card {
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        .application-form {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        .application-form label {
+            font-weight: 500;
+            color: #333; /* Dark gray text */
+        }
+        .application-form input,
+        .application-form select,
+        .application-form textarea {
+            border-radius: 5px; /* Rounded corners for inputs */
+            border: 1px solid #ddd; /* Light gray border */
+            padding: 10px;
+            font-size: 1rem;
+        }
+        .application-form input:focus,
+        .application-form select:focus,
+        .application-form textarea:focus {
+            border-color: #007bff; /* Blue border on focus */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow on focus */
+        }
+        .application-form button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+
+        .status-check-section {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        .status-check-section label {
+            font-weight: 500;
+            color: #333; /* Dark gray text */
+        }
+        .status-check-section input {
+            border-radius: 5px; /* Rounded corners for inputs */
+            border: 1px solid #ddd; /* Light gray border */
+            padding: 10px;
+            font-size: 1rem;
+        }
+        .status-check-section input:focus {
+            border-color: #007bff; /* Blue border on focus */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow on focus */
+        }
+        .status-check-section button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .pdf-preview {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .pdf-preview iframe {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 10px; /* Rounded corners */
+        }
+        .pdf-actions {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .pdf-actions a {
+            margin: 0 10px;
+        }
+
+
+/*        <!-- Custom CSS for WhatsApp Button */
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366; /* WhatsApp green color */
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 50px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        z-index: 1000; /* Ensure it stays on top of other elements */
+        transition: background-color 0.3s ease; /* Smooth hover effect */
+    }
+
+    .whatsapp-button:hover {
+        background-color: #128c7e; /* Darker green on hover */
+    }
+
+    .whatsapp-logo {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .whatsapp-text {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /* Custom CSS for Dropdown */
+/* Custom CSS for Dropdown */
+.navbar .dropdown-menu {
+    background-color: #343a40; /* Dark background for dropdown */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar .dropdown-item {
+    color: #fff; /* White text for dropdown items */
+    padding: 10px 20px; /* Add padding */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+}
+
+.navbar .dropdown-toggle::after {
+    margin-left: 5px; /* Add space between text and dropdown arrow */
+}
+
+
+/* <!-- Custom CSS for Stats Section --> */
+
+    .stats-section {
+        padding: 100px 0; /* Add more padding for better spacing */
+        background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+        background-blend-mode: overlay; /* Blend the background image with the overlay */
+    }
+    .stats-section h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .stats-section h3 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .stats-section p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .carousel-section {
+        padding: 50px 0;
+    }
+    .carousel-section h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #000; /* Black text */
+        margin-bottom: 30px;
+    }
+    .carousel-section .carousel-item img {
+        border-radius: 10px; /* Rounded corners for images */
+        height: 300px; /* Fixed height for carousel images */
+        object-fit: cover; /* Ensure images cover the area */
+    }
+    .carousel-section .btn {
+        margin-top: 20px;
+    }
+
+    .job-section {
+        background-color: #f8f9fa; /* Light gray background */
+        padding: 50px 0;
+    }
+    .job-section h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #000; /* Black text */
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .job-card {
+        background-color: #fff; /* White background */
+        border: 1px solid #ddd; /* Light gray border */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    }
+    .job-card:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    }
+    .job-card h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #007bff; /* Blue text */
+    }
+    .job-card p {
+        font-size: 1rem;
+        color: #666; /* Dark gray text */
+        margin-bottom: 0;
+    }
+    /* <!-- Custom CSS for Biometric Section --> */
+
+    .biometric-section {
+        background-color: #fff; /* White background */
+        padding: 50px 0;
+    }
+    .image-container img {
+        border-radius: 10px; /* Rounded corners for the image */
+    }
+    .paragraph p {
+        font-size: 1.2rem;
+        color: #333; /* Dark gray text */
+    }
+    .terms-conditions {
+        background-color: #f8f9fa; /* Light gray background */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    .terms-conditions h5 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .terms-conditions ul {
+        padding-left: 20px;
+    }
+    .terms-conditions ul li {
+        margin-bottom: 10px;
+    }
+    .form-check {
+        margin-top: 15px;
+    }
+
+
+    .account-section {
+        background-color: #fff; /* White background */
+        padding: 50px 0;
+    }
+    #animatedHeading {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #007bff; /* Blue text */
+        opacity: 0; /* Initially hidden */
+        transform: translateY(-20px); /* Start slightly above */
+        animation: fadeInDown 1s ease-out forwards; /* Animation */
+    }
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .rules-list {
+        background-color: #f8f9fa; /* Light gray background */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    .rules-list h5 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .rules-list ul {
+        padding-left: 20px;
+    }
+    .rules-list ul li {
+        margin-bottom: 10px;
+    }
+    .fee-status-section {
+        padding: 100px 0;
+        background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+        background-blend-mode: overlay; /* Blend the background image with the overlay */
+    }
+    #animatedHeading {
+        font-size: 3rem;
+        font-weight: 700;
+        opacity: 0; /* Initially hidden */
+        transform: translateY(-20px); /* Start slightly above */
+        animation: fadeInDown 1s ease-out forwards; /* Animation */
+    }
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .fee-status-section .lead {
+        font-size: 1.25rem;
+    }
+    .fee-status-section .input-group {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .fee-status-section .btn {
+        background-color: #007bff; /* Blue button */
+        border: none;
+    }
+    .fee-status-section .btn:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+    #feeStatusDisplay {
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    #feeStatusDisplay h4 {
+        color: #000; /* Black text */
+    }
+
+    iframe {
+        width: 100%;
+        height: 40vh;
+        border: 1px solid #ccc;
+    }
+
